@@ -5,6 +5,7 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+/* Fantastic job on this homework assignment! Everything looks great; you did an awesome job. One thing to consider is that you may want to use the min-width media query instead to save some time and effort, but the way you did it works perfectly fine. Also, make sure you include the line of HTML that I added for responsive design--it's critical if you want your code to look good on a mobile phone. */
 
 /******************************************
 /* SETUP
@@ -343,6 +344,8 @@ footer p {
 /*******************************************/
 
 @media screen and (max-width: 768px) {
+  /* You might want to use the approach where you use a min-width media query, and then it saves you the effort of readjusting your widths back to 100%. Since a block-level element is inherently 100% width, you can just apply the layout styles inside a min-width media query for desktop views, and then you don't have to go back and eliminate them in a media query. Both methods work, though! Great job on this! */
+
   header .logo {
     font-size: 36px;
   }
